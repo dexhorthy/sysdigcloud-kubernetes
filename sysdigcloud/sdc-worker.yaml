@@ -10,6 +10,7 @@ spec:
       labels:
         app: sysdigcloud
         role: worker
+        edited: "true"
     spec:
       containers:
         - name: worker
